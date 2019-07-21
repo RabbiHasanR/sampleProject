@@ -10,5 +10,5 @@ setuptools.setup(
    author='Rabbi',
    author_email='jasrabbi50@gmail.com',
    packages=['example_pkg'],  #same as name
-   install_requires=['cv2'], #external packages as dependencies
+   install_requires=['opencv-python'], #external packages as dependencies
 )
