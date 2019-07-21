@@ -10,5 +10,5 @@ setuptools.setup(
    author='Rabbi',
    author_email='jasrabbi50@gmail.com',
    packages=['example_pkg'],  #same as name
-   install_requires=['namp'], #external packages as dependencies
+   install_requires=['nmap'], #external packages as dependencies
 )
