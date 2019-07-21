@@ -1,1 +1,1 @@
-name = "sample_pkg"
+name = "example_pkg"
