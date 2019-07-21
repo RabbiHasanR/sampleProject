@@ -4,18 +4,11 @@ with open("README.md", "r") as fh:
     long_description = fh.read()
 
 setuptools.setup(
-    name="example-pkg-rabbi50",
-    version="0.0.1",
-    author="Example Author",
-    author_email="jasrabbi50@gmail.com",
-    description="A small example package",
-    long_description=long_description,
-    long_description_content_type="text/markdown",
-    url="https://github.com/Rabbi50/sampleProject",
-    packages=setuptools.find_packages(),
-    classifiers=[
-        "Programming Language :: Python :: 3",
-        "License :: OSI Approved :: MIT License",
-        "Operating System :: OS Independent",
-    ],
+   name='test',
+   version='1.0',
+   description='A useful module',
+   author='Rabbi',
+   author_email='jasrabbi50@gmail.com',
+   packages=['example_pkg'],  #same as name
+   install_requires=['cv2'], #external packages as dependencies
 )
